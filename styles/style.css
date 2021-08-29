@@ -12,6 +12,7 @@
 .attribution {
   font-size: 11px;
   text-align: center;
+  height: 1rem;
   position: absolute;
   bottom: 0;
   width: 100%;
@@ -25,6 +26,13 @@ body {
   background: var(--light-gray-blue);
   font-size: 13px;
   font-family: "Barlow Semi Condensed", sans-serif;
+
+  position: relative;
+  min-height: 100%;
+}
+
+main {
+  padding-bottom: 1rem;
 }
 
 .testimonial-container {
